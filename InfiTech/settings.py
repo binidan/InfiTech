@@ -96,7 +96,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'infitech_main_database',
         'USER': 'root',
-        'PASSWORD': str(os.getenv('PASSWORD')),
+        'PASSWORD': "Bini1992",
         'HOST': 'localhost',
         'PORT': '3306'
     }
