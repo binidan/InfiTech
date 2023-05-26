@@ -94,10 +94,10 @@ WSGI_APPLICATION = 'InfiTech.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'infitech_main_database',
-        'USER': 'root',
+        'NAME': 'infitech$final',
+        'USER': 'infitech',
         'PASSWORD': "Bini1992",
-        'HOST': 'localhost',
+        'HOST': 'infitech.mysql.pythonanywhere-services.com',
         'PORT': '3306'
     }
 }
